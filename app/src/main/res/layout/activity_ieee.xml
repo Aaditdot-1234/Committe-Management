@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ieee">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/back_arrow"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Profile page"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/ieee" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageView"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IEEE RAIT \n Committee "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Become a member" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/ieeasd" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Vinayak.S"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/ieeesd" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Aditya Kamble"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/ieeefarf" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Kedar Wakade"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="About Us:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:text="Welcome to the IEEE Student Branch, where innovation and technology meet to shape the future. We are a passionate and dynamic group of students dedicated to exploring the frontiers of electrical and electronics engineering.
+
+\n\nOur Mission:
+
+\nAt IEEE [Your College Name] Student Branch, our mission is to foster a community of like-minded individuals who are enthusiastic about technology and its applications. We strive to:
+
+\n\nPromote academic and professional growth in the field of electrical and electronics engineering.
+Facilitate networking opportunities with industry professionals, researchers, and fellow students.
+Encourage innovation, creativity, and leadership among our members.
+Organize technical events, workshops, and competitions to enhance skills and knowledge.
+\n\nWhat We Do:
+
+\n\n 1.)Technical Workshops: We organize hands-on workshops that cover a wide range of topics from robotics and artificial intelligence to renewable energy and data analytics.
+
+\n\n 2.)Guest Lectures: We invite industry experts and researchers to deliver talks on cutting-edge technologies and trends in the field of electrical and electronics engineering.
+
+\n\n 3.)Hackathons and Competitions: Get ready to put your skills to the test in our hackathons and technical competitions. Compete, learn, and have fun.
+
+\n\n 4.)Networking Events: Connect with professionals in the industry and fellow students who share your passion for technology.
+
+\n\n 5.)Community Projects: We believe in giving back. Join us in projects that use technology to make a positive impact in our local community.
+
+\n\n 6.)IEEE Publications: Gain access to IEEE's renowned publications and stay up-to-date with the latest research in the field.
+
+\n\n Join Us:
+
+\n\nWhether you're an electrical engineering enthusiast, a computer science wizard, or just someone who loves technology, IEEE [Your College Name] Student Branch has something to offer you. We welcome students from all backgrounds and levels of experience.
+
+\n\nCome and be a part of a vibrant community where you can learn, collaborate, and create. Together, we're powering the future.
+
+\n\nConnect With Us:
+
+\n\nFollow us on social media, attend our events, or reach out to our committee members to learn more about IEEE [Your College Name] Student Branch. We're excited to have you on board!"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

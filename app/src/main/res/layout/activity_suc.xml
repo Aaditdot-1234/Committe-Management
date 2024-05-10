@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".suc">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/back_arrow"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Profile page"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/suc4" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageView"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SUC RAIT \n Committee "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Become a member" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/suc2" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Karan.L"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/suc1" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Siddhesh.n"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/suc3" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Samarth.A"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/suc5"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="About Us:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:text="Welcome to the Student Union Committee (SUC)! We are a dedicated group of students who are passionate about making a positive impact on our college community. Our committee serves as the voice of the student body and works tirelessly to enhance the overall college experience for everyone.
+
+\n\nOur Mission:
+
+\nAt SUC, our mission is clear and straightforward: to represent, serve, and advocate for the interests of our fellow students. We aim to foster an inclusive and vibrant college environment that promotes academic success, personal development, and a sense of belonging.
+
+\n\nWhat We Do
+
+\nOur responsibilities are diverse and essential to the functioning of the student body. These include:
+
+\n\n 1.)Advocacy: We are the bridge between students and college administration. We actively engage in dialogue with college officials to address concerns, propose improvements, and advocate for student needs.
+
+\n\n 2.)Events and Activities: We organize a wide range of events, from cultural festivals to academic seminars, to ensure a well-rounded college experience.
+
+\n\n 3.)Student Support: We are here to assist our peers with academic, personal, or social issues. Whether it's academic advising or helping with student initiatives, we're here to lend a helping hand.
+
+\n\n 4.)Community Outreach: We are committed to giving back to the community through volunteering, charity drives, and other initiatives.
+
+\n\n Get Involved
+
+\nSUC is an inclusive organization that welcomes the participation and input of every student. Your voice matters, and your ideas can help shape our college's future. Join us in making a difference. Get involved by attending our meetings, volunteering for events, or running for a committee position. Together, we can create a college experience we're all proud of.
+
+\n\n Contact Us
+
+\nWe are always here to listen to your concerns, answer your questions, and collaborate on ideas to improve college life. You can reach us at [Provide contact information, such as an email address or social media links].
+
+\n\nThank you for being part of the community. We look forward to working together to make your college experience the best it can be!" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

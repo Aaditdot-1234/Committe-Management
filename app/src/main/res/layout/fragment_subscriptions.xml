@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubscriptionsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Committees"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/red"/> -->
+     <RelativeLayout
+         android:layout_marginTop="65dp"
+         android:layout_width="match_parent"
+         android:layout_height="75dp"
+         android:id="@+id/CSI"
+         android:background="@drawable/custom_edittext">
+
+         <ImageView
+             android:layout_marginStart="10dp"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_centerVertical="true"
+             android:src="@drawable/csi"/>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Computer Society Of India (CSI)"
+             android:textAlignment="center"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:textSize="17dp"/>
+
+     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="155dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/PCR"
+        android:background="@drawable/custom_edittext">
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/pcr"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PhotoCircle RAIT (PCR)"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="17dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="245dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/SUC"
+        android:background="@drawable/custom_edittext">
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/suc"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Union Council (SUC)"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="17dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="335dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/ieee"
+        android:background="@drawable/custom_edittext">
+
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ieee"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IEEE"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="17dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

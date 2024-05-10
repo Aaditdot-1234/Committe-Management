@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbg"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/back_arrow"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Profile page"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-215dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/about_us" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="ABOUT US:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Welcome to our Committee Management App! We are a dedicated team of tech enthusiasts who are passionate about simplifying and enhancing the way committees and organizations manage their operations. Our app is designed to streamline the entire committee management process, making it more efficient, transparent, and collaborative." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="OUR MISSION:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Our mission is to empower committees and organizations of all sizes to work more effectively by providing them with a user-friendly, feature-rich, and reliable platform for managing their activities. We understand the challenges that committees face in coordinating, advertising their events, communicating with members, and keeping track of the events. Our app aims to be the solution to these challenges." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="WHAT SETS US APART:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="What Sets Us Apart
+
+\n\n 1.)User-Centric Design: We put users at the center of our design process. Our app is intuitive and easy to use, ensuring that anyone, regardless of their tech-savviness, can navigate and leverage its features.
+
+\n\n 2.)Efficiency: We prioritize efficiency, helping committees save time and reduce administrative overhead."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="KEY FEATURES:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Meeting Management: Schedule, organize, and track meetings effortlessly. Share agendas, minutes, and related documents in a centralized location.
+
+\n\n ->Document Sharing: Store and share documents securely. Collaborate on files in real-time and keep an organized repository.
+
+\n\n->Task Assignment: Assign tasks to members, set deadlines, and track progress to ensure that responsibilities are fulfilled.
+
+\n\n->Communication Tools: Stay in touch with members through built-in messaging and announcement features, promoting effective communication.
+
+\n\n->Access Control: Control who can view, edit, or manage different aspects of your committee's work. Ensure data security and privacy.
+
+\n\n->Analytics and Reporting: Gain insights into your committee's performance with analytics and reporting tools to make data-driven decisions.
+
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="OUR COMMITMENT:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="We are committed to delivering an app that exceeds your expectations. We value user feedback and continuously work on improving our app to meet the evolving needs of committees and organizations. Our support team is always ready to assist and ensure a smooth experience for our users.
+
+\nJoin us in revolutionizing committee management and making the process more efficient, collaborative, and transparent. We look forward to helping you achieve your committee's goals and objectives with our Committee Management App."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "687704311140",
+    "firebase_url": "https://college-committee-connect-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "college-committee-connect",
+    "storage_bucket": "college-committee-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687704311140:android:2283f5aa91a877da1d2671",
+        "android_client_info": {
+          "package_name": "com.example.login2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS5AKVbg6JghM-5EFUeBX2COmXkQt-P9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

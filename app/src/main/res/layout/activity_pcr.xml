@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pcr">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/back_arrow"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Profile page"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/pcr1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageView"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PCR RAIT \n Committee "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Become a member" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/pcr4" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Krishi Chheda"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/pcr3" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Ishaan Dange"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/pcr2" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Shwetal Ray"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/pcr5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="About Us:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:text="Welcome to the Photo Circle Committee, where we celebrate the art of photography and capture moments that last a lifetime. We are a passionate group of photographers dedicated to fostering creativity and visual storytelling through the lens.
+
+\n\nOur Mission:
+
+\nAt Photo Circle, our mission is to create a vibrant community of photographers who share a common love for the art of image-making. We believe in the power of photography to convey emotions, document experiences, and inspire change. Through our various activities and initiatives, we aim to:
+
+\n\nEncourage and support photographers of all skill levels, from beginners to professionals.
+Promote the appreciation of diverse photographic styles and techniques.
+Provide opportunities for members to learn, grow, and collaborate.
+Showcase the beauty and significance of the world through captivating images.
+What We Do:
+
+\n\n 1.)Photography Workshops: We organize workshops and training sessions to help members develop their photography skills, covering topics such as composition, lighting, post-processing, and more.
+
+\n\n 2.)Photo Walks: We embark on exciting photo walks to explore our surroundings, discover new perspectives, and practice our craft in real-world settings.
+
+\n\n 3.)Exhibitions: We curate and host photography exhibitions, giving our members the chance to showcase their work and share their stories with a broader audience.
+
+\n\n 4.)Contests and Challenges: Photo Circle frequently hosts photography contests and challenges to inspire creativity and friendly competition within our community.
+
+\n\n 5.)Guest Speakers: We invite experienced photographers and industry experts to share their knowledge and insights with our members.
+
+\n\n 6.)Social Events: We organize casual meet-ups and social gatherings for members to connect, exchange ideas, and build lasting friendships with fellow photography enthusiasts.
+
+\n\nJoin Us:
+
+\nWhether you're an experienced photographer or just starting your journey in photography, Photo Circle Committee welcomes all who are passionate about visual storytelling. We believe that everyone has a unique perspective to offer, and we are here to nurture your creativity and provide a supportive community where you can thrive.
+
+Join us in capturing the world, one frame at a time. Together, we'll explore the endless possibilities of photography and create a visual legacy.
+
+If you're interested in becoming a part of our community, please feel free to reach out to us, attend our events, or become a member. We look forward to seeing the world through your lens!
+
+\n\nContact Information:
+
+\n[Include your committee's contact information, such as an email address or social media links, here.]
+
+\n\nPlease tailor this description to fit the specific goals and activities of your Photo Circle Committee and provide the relevant contact information.
+
+
+
+
+"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CsiActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="14dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:id="@+id/back_arrow"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Profile page"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/csi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/imageView"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CSI RAIT \n Committee "
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Become a member" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/csi5" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Sahil Gujral"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/csivp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Saarth Shetty"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:layout_toEndOf="@id/layout2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="left"
+                        android:background="@drawable/csifse" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Umit Shah"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/csi1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="16dp"
+                android:text="About Us:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="10dp"
+                android:text="The term CSI committee is quite general and doesn't refer to a specific organization or committee. However, if you are referring to the Computer Society of India (CSI) committee or organization, I can provide some information about its history.
+
+            \n\nThe Computer Society of India (CSI) is a professional organization in India that aims to promote and advance the field of computer science and information technology. Here's a brief history of CSI:
+            \n\n 1.)Foundation: CSI was established on March 6, 1965, and it is one of the oldest and largest IT professional organizations in India. It was founded by a group of computer professionals, academics, and technology enthusiasts.
+            \n\n 2.)Early Years: In its early years, CSI focused on creating a platform for professionals and academics to exchange knowledge, discuss emerging trends in the field, and promote computer education and research.
+
+\n\n 3.)Growth and Expansion: Over the years, CSI has grown significantly and expanded its reach. It now has chapters and student branches in various cities and educational institutions across India.
+
+\n\n 4.)Objectives: CSI's objectives include the advancement of the theory and practice of computer science and IT, the promotion of high standards of knowledge and expertise, and facilitating the exchange of information among professionals.
+
+\n\n 5.)Activities: CSI organizes conferences, seminars, workshops, and technical events to promote knowledge sharing and networking within the IT community. It also publishes journals and magazines to disseminate research and industry insights.
+
+\n\n 6.)Certification and Training: CSI offers various certification programs and training courses to enhance the skills and knowledge of IT professionals.
+
+\n\n 7.)Collaborations: The organization collaborates with government bodies, academia, and industry to address challenges and opportunities in the field of computer science and information technology.
+
+\n\n 8.)Membership: CSI offers membership to professionals, institutions, and student branches, allowing individuals and organizations to participate in its activities.
+
+\n\n 9.)Please note that the specific history and activities of a CSI committee or branch within a particular college or institution may vary, as these committees often operate independently within the broader framework of the Computer Society of India. For detailed information about the history and activities of a specific CSI committee, you would need to contact that committee or refer to their official records and documents." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
